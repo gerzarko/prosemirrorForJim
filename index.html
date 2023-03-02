@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
+    <title>Solid App</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1 id="title">Prosemirror Test 1</h1>
+      <input id="search" placeholder="search" value="in" /><button id="go">
+        search
+      </button>
+      <div id="editor"></div>
+      <div id="action-buttons">
+        <button id="insert">Insert Text</button>
+        <button id="log-state-button">Log state as Json</button>
+      </div>
+      <div id="state-log"></div>
+    </div>
+
+    <script src="/src/index.jsx" type="module"></script>
+  </body>
+</html>

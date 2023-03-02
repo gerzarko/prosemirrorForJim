@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  @apply ml-40;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#editor,
+.editor {
+  @apply my-7 w-1/2 bg-white;
+}
+
+.ProseMirror {
+  /* padding: 4px 8px 4px 14px; */
+  line-height: 1.2;
+  border: 1px solid black;
+  @apply h-96 border border-solid;
+}
+
+#state-log {
+  /* @apply mt-1 p-2 border-2  border-blue-700 border-solid font-mono; */
+  @apply w-1/2;
+}
